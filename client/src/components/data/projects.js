@@ -9,7 +9,7 @@ export const projects = [
     date: '2024',
     video: 'https://res.cloudinary.com/dxwzdftzm/video/upload/v1784568129/Motoket_esggxy.mp4',
     github: 'https://github.com/ngugilovesyou/motoket',
-    liveDemo: 'https://motoket.onrender.com/shop',
+    liveDemo: 'https://motoket.onrender.com/',
     features: [
       'Product browsing and search',
       'Shopping cart management',
