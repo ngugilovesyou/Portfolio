@@ -1,5 +1,5 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
-import { Analytics } from '@vercel/analytics/react'
+import { Analytics } from "@vercel/analytics/react"
 import { AnimatePresence } from 'framer-motion'
 import Layout from './components/common/feed/layout/Layout'
 import Home from './components/pages/Home'
