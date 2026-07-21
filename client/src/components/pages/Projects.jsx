@@ -63,7 +63,7 @@ const Projects = () => {
         </div>
 
         {/* Project Feed - Adjusted padding for header and bottom nav */}
-        <div className="feed-container pt-14 sm:pt-16 pb-20 lg:pb-0">
+        <div className="feed-container pt-8 sm:pt-16 pb-20 lg:pb-0">
           {projects.map((project, index) => (
             <ProjectCard
               key={project.id}
