@@ -77,7 +77,7 @@ const About = () => {
               </a>
             </div>
             <a 
-              href="/public/Samuel_Ngugi_Gitau_CV_O.pdf" 
+              href="https://res.cloudinary.com/dxwzdftzm/image/upload/v1784622160/Samuel_Ngugi_Gitau_CV_O_c4vqxp.pdf" 
               download
               className="flex items-center justify-center gap-1.5 sm:gap-2 mt-3 sm:mt-4 px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg bg-accent hover:bg-accent-hover text-xs sm:text-sm font-medium transition-colors"
             >

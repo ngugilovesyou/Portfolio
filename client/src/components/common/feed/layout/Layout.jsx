@@ -5,9 +5,9 @@ import Sidebar from '../../Sidebar'
 
 const Layout = () => {
   return (
-    <div className="min-h-screen bg-primary">
+   <div className="min-h-screen bg-primary">
       <Sidebar />
-      <main className="ml-20 lg:ml-64 min-h-screen">
+      <main className="lg:ml-64 min-h-screen w-full">
         <Outlet />
       </main>
       <MobileNav />
