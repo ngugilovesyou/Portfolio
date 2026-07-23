@@ -45,7 +45,7 @@ const Education = () => {
   title="Education"
   description="Explore my educational background, certifications, and the learning experiences that have shaped my journey as a full-stack software developer."
   keywords={`Software Engineering, Full-Stack Development, Moringa School, Web Development, Samuel Ngugi`}
-  url="https://samuel-ngugi.dev/education"
+  url="https://samuel-pi-three.vercel.app/education"
   type="article"
   publishedTime="2026-07-20"
   modifiedTime="2026-07-20"

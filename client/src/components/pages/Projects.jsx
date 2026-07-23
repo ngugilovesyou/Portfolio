@@ -43,7 +43,6 @@ const Projects = () => {
         modifiedTime="2026-07-20"
       />
       <div ref={containerRef} className="min-h-screen">
-        {/* Responsive Header - Full width on mobile, offset for sidebar on desktop */}
         <div
           ref={headerRef}
           className="

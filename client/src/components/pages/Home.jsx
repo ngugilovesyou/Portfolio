@@ -96,7 +96,7 @@ const Home = () => {
         >
           <Link
             to="/projects"
-            className="group w-full sm:w-auto px-6 sm:px-8 py-3 bg-accent hover:bg-accent-hover rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2"
+            className="group w-full sm:w-auto px-6 sm:px-8 py-3 text-white bg-accent hover:bg-accent-hover rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2"
           >
             View My Work
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
@@ -116,32 +116,36 @@ const Home = () => {
           <a 
             href="https://github.com/ngugilovesyou" 
             target="_blank" 
+            aria-label="GitHub Profile"
             rel="noopener noreferrer"
             className="p-2.5 rounded-lg hover:bg-white/5 transition-colors"
           >
-            <FaGithub size={20} />
+            <FaGithub size={20}  aria-hidden="true"/>
           </a>
           <a 
             href="https://www.linkedin.com/in/samuel-gitau-361350261/" 
             target="_blank" 
             rel="noopener noreferrer"
+            aria-label="Linkedin Profile"
             className="p-2.5 rounded-lg hover:bg-white/5 transition-colors"
           >
-            <FaLinkedin size={20} />
+            <FaLinkedin size={20}  aria-hidden="true"/>
           </a>
           <a 
             href="https://x.com/k_ntycoon" 
             target="_blank" 
             rel="noopener noreferrer"
+            aria-label="X/Twitter Profile"
             className="p-2.5 rounded-lg hover:bg-white/5 transition-colors"
           >
-            <FaTwitter size={20} />
+            <FaTwitter size={20}  aria-hidden="true"/>
           </a>
           <a 
-            href="mailto:amsamgittau@gmail.com"
+            href="mailto:amsamgitau@gmail.com"
             className="p-2.5 rounded-lg hover:bg-white/5 transition-colors"
+            aria-label="Send Email"
           >
-            <Mail size={20} />
+            <Mail size={20}  aria-hidden="true"/>
           </a>
         </div>
       </div>

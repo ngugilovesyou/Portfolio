@@ -44,7 +44,7 @@ const About = () => {
         <p className="text-text-secondary text-sm sm:text-base mb-4 sm:mb-6 md:mb-8">Get to know me better</p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
-          {/* Profile Card */}
+         
           <div 
             ref={el => sectionsRef.current[0] = el}
             className="md:col-span-1 glass rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 text-center"

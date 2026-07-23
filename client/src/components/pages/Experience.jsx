@@ -35,7 +35,7 @@ const Experience = () => {
   title="Experience"
   description="Explore my professional experience, the projects I've contributed to, and how I've helped build scalable web applications and digital solutions."
   keywords={`${companyNames}, Full-Stack Developer, Software Engineer, React Developer, Flask Developer, Django Developer, Web Development`}
-  url="https://samuel-pi-three.vercel.app//experience"
+  url="https://samuel-pi-three.vercel.app/experience"
   type="article"
   publishedTime="2026-07-20"
   modifiedTime="2026-07-20"

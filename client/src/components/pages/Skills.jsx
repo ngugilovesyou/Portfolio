@@ -43,12 +43,11 @@ const Skills = () => {
       })
     }, containerRef)
 
-    // Refresh ScrollTrigger after animations are set up
+    
     ScrollTrigger.refresh()
 
     return () => {
       ctx.revert()
-      // Clean up ScrollTrigger instances
       ScrollTrigger.getAll().forEach(trigger => trigger.kill())
     }
   }, [])
