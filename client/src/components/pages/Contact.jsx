@@ -77,7 +77,7 @@ const Contact = () => {
   }
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'amsamgittau@gmail.com', href: 'mailto:amsamgittau@gmail.com' },
+    { icon: Mail, label: 'Email', value: 'amsamgitau@gmail.com', href: 'mailto:amsamgitau@gmail.com' },
     { icon: MapPin, label: 'Location', value: 'Nairobi, Kenya', href: null },
     { icon: Phone, label: 'Phone', value: '+254 758 750 963', href: 'tel:+254758750963' }
   ]
