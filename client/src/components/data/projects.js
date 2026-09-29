@@ -105,6 +105,7 @@ export const projects = [
     stack: ['Flask', 'Python', 'JavaScript', 'PHP', 'M-Pesa API', 'PayPal API'],
     role: 'Full-Stack Developer',
     date: '2026',
+    video:'https://res.cloudinary.com/dxwzdftzm/video/upload/q_auto,f_auto/v1790716648/screen-20260930-001437_rgddvr.mp4',
     liveDemo: 'https://blackandwhitefoundation.com/ebooks',
     features: [
       'Ebook catalogue and individual ebook pages',
