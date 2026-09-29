@@ -96,6 +96,34 @@ export const projects = [
     ],
     images: ['https://res.cloudinary.com/dxwzdftzm/image/upload/v1784564963/screen20_sddljp.jpg']
   },
+
+  {
+    id: 'black-white-foundation',
+    title: 'Black & White Foundation — Ebook Platform',
+    description: 'Digital ebook marketplace integrated into an existing website, with M-Pesa and PayPal payments, protected files, and controlled downloads.',
+    fullDescription: 'Extended an existing website with a Flask-powered ebook purchasing and distribution system. Built the ebook catalogue, purchase flow, admin management tools, and protected digital file delivery, while integrating the new functionality with the existing production website.',
+    stack: ['Flask', 'Python', 'JavaScript', 'PHP', 'M-Pesa API', 'PayPal API'],
+    role: 'Full-Stack Developer',
+    date: '2026',
+    liveDemo: 'https://blackandwhitefoundation.com/ebooks',
+    features: [
+      'Ebook catalogue and individual ebook pages',
+      'M-Pesa and PayPal payment integration',
+      'Admin dashboard with ebook CRUD operations',
+      'Ebook cover and PDF/EPUB uploads',
+      'Purchase verification before download access',
+      'Protected PDF and EPUB file delivery',
+      'Single-download-per-purchase enforcement',
+      '5-minute expiring download tokens'
+    ],
+    challenges: [
+      'Integrated the ebook system into an existing production website',
+      'Implemented payment verification before granting access to digital files',
+      'Built controlled file delivery using short-lived download tokens',
+      'Prevented unauthorized access to protected PDF and EPUB files'
+    ],
+    images: []
+  },
 //   {
 //     id: 'taskflow',
 //     title: 'TaskFlow',
